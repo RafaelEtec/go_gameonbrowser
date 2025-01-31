@@ -4,7 +4,7 @@ type Board struct {
 	tiles [][]*Tile
 }
 
-func NewBoard(rows int, cols int) *Board {
+func NewBoard() *Board {
 	board := &Board{
 		tiles: SetTiles(),
 	}
